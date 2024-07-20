@@ -1,0 +1,43 @@
+@prefix ex: <http://example.org/turtle#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Bank ex:is_an "organisation"^^xsd:string;
+        ex:has_name "Punjab_National_Bank"^^xsd:string .
+        
+ex:Punjab_National_Bank  ex:founded_in   "1894"^^xsd:integer;
+                         ex:has_customer "Suman"^^xsd:string;
+                         ex:has_customer "Sukhjit"^^xsd:string;
+                         ex:has_customer "Dhanjot"^^xsd:string;
+                         ex:has_customer "Rajwinder"^^xsd:string .
+
+ex:Suman ex:lives_in   "Chandigarh"^^xsd:string; 
+         ex:has_gender "Female"^^xsd:string;
+         ex:has_age     "19"^^xsd:integer;
+         ex:born_on     "2004-10-20"^^xsd:dateTime;
+         ex:has_account "saving_account"^^xsd:string .
+
+ex:Sukhjit ex:lives_in   "Mohali"^^xsd:string; 
+           ex:has_gender "Female"^^xsd:string;
+           ex:has_age     "40"^^xsd:integer;
+           ex:born_on     "1985-03-16"^^xsd:dateTime;
+           ex:has_account "current_account"^^xsd:string .
+
+ex:Dhanjot ex:lives_in   "Pataila"^^xsd:string; 
+           ex:has_gender "Male"^^xsd:string;
+           ex:has_age     "17"^^xsd:integer;
+           ex:born_on     "2006-05-17"^^xsd:dateTime;
+           ex:has_account "joint_account"^^xsd:string .
+
+ex:Rajwinder ex:lives_in      "Ludhiana"^^xsd:string; 
+             ex:has_gender    "Male"^^xsd:string;
+             ex:has_age        "50"^^xsd:integer;
+             ex:born_on        "1975-05-06"^^xsd:dateTime;
+             ex:has_account   "fixed_deposit"^^xsd:string .
+
+ex:saving_account  ex:has_balance  "60000"^^xsd:integer .
+
+ex:current_account ex:has_balance  "70000"^^xsd:integer .
+
+ex:fixed_deposit   ex:has_balance  "50000"^^xsd:integer .
+
+ex:joint_account   ex:has_balance  "2000000"^^xsd:integer .

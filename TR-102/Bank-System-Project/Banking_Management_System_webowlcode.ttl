@@ -1,0 +1,395 @@
+#################################################################
+###  Generated with the experimental alpha version of the TTL exporter of WebVOWL (version 1.1.7)  http://visualdataweb.de/webvowl/   ###
+#################################################################
+
+@prefix : 		<http://visualdataweb.org/newOntology/> .
+@prefix rdf: 		<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: 		<http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: 		<http://www.w3.org/2002/07/owl#> .
+@prefix xsd: 		<http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: 		<http://purl.org/dc/elements/1.1/> .
+@prefix xml: 		<http://www.w3.org/XML/1998/namespace> .
+@prefix wot: 		<http://xmlns.com/wot/0.1/> .
+@prefix vs: 		<http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+@prefix foaf: 		<http://xmlns.com/foaf/0.1/> .
+@base 			<http://visualdataweb.org/newOntology/> .
+
+<http://visualdataweb.org/newOntology/> rdf:type owl:Ontology ;
+                                        dc:title "New ontology"@en; 
+                                        dc:description "New ontology description"@en . 
+#################################################################
+
+###  Property Definitions (Number of Property) 54 ###
+#  --------------------------- Property 0------------------------- 
+:is_an rdf:type owl:ObjectProperty ;
+       rdfs:label "is_an"@en; 
+       rdfs:domain :Bank;
+       rdfs:range :Organisation . 
+#  --------------------------- Property 1------------------------- 
+:has_name rdf:type owl:ObjectProperty ;
+          rdfs:label "has_name"@en; 
+          rdfs:domain :Bank;
+          rdfs:range :Punjab_National_Bank . 
+#  --------------------------- Property 2------------------------- 
+:founded_in rdf:type owl:ObjectProperty ;
+            rdfs:label "founded_in"@en; 
+            rdfs:domain :Punjab_National_Bank;
+            rdfs:range :1894 . 
+#  --------------------------- Property 3------------------------- 
+:datatypeProperty7 rdf:type owl:DatatypeProperty ;
+                   rdfs:label "newDatatypeProperty"@en; 
+                   rdfs:domain :1894;
+                   rdfs:range xsd:integer . 
+#  --------------------------- Property 4------------------------- 
+:datatypeProperty8 rdf:type owl:DatatypeProperty ;
+                   rdfs:label "newDatatypeProperty"@en; 
+                   rdfs:domain :Punjab_National_Bank;
+                   rdfs:range xsd:string . 
+#  --------------------------- Property 5------------------------- 
+:datatypeProperty9 rdf:type owl:DatatypeProperty ;
+                   rdfs:label "newDatatypeProperty"@en; 
+                   rdfs:domain :Organisation;
+                   rdfs:range xsd:string . 
+#  --------------------------- Property 6------------------------- 
+:has_customer rdf:type owl:ObjectProperty ;
+              rdfs:label "has_customer"@en; 
+              rdfs:domain :Bank;
+              rdfs:range :Dhanjot . 
+#  --------------------------- Property 7------------------------- 
+:has_customer rdf:type owl:ObjectProperty ;
+              rdfs:label "has_customer"@en; 
+              rdfs:domain :Bank;
+              rdfs:range :Rajwinder . 
+#  --------------------------- Property 8------------------------- 
+:has_customer rdf:type owl:ObjectProperty ;
+              rdfs:label "has_customer"@en; 
+              rdfs:domain :Bank;
+              rdfs:range :Sukhjit . 
+#  --------------------------- Property 9------------------------- 
+:newObjectProperty rdf:type owl:ObjectProperty ;
+                   rdfs:label "has_customer"@en; 
+                   rdfs:domain :Bank;
+                   rdfs:range :Suman . 
+#  --------------------------- Property 10------------------------- 
+:datatypeProperty14 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :Dhanjot;
+                    rdfs:range xsd:string . 
+#  --------------------------- Property 11------------------------- 
+:datatypeProperty15 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :Rajwinder;
+                    rdfs:range xsd:string . 
+#  --------------------------- Property 12------------------------- 
+:datatypeProperty16 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :Sukhjit;
+                    rdfs:range xsd:string . 
+#  --------------------------- Property 13------------------------- 
+:datatypeProperty17 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :Suman;
+                    rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 14------------------------- 
+:lives_in rdf:type owl:ObjectProperty ;
+          rdfs:label "lives_in"@en; 
+          rdfs:domain :Sukhjit;
+          rdfs:range :Mohali . 
+#  --------------------------- Property 15------------------------- 
+:lives_in rdf:type owl:ObjectProperty ;
+          rdfs:label "lives_in"@en; 
+          rdfs:domain :Rajwinder;
+          rdfs:range :Ludhina . 
+#  --------------------------- Property 16------------------------- 
+:lives_in rdf:type owl:ObjectProperty ;
+          rdfs:label "lives_in"@en; 
+          rdfs:domain :Dhanjot;
+          rdfs:range :Pataila . 
+#  --------------------------- Property 17------------------------- 
+:lives_in rdf:type owl:ObjectProperty ;
+          rdfs:label "lives_in"@en; 
+          rdfs:domain :Suman;
+          rdfs:range :Chandigarh . 
+#  --------------------------- Property 18------------------------- 
+:datatypeProperty24 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :Pataila;
+                    rdfs:range xsd:string . 
+#  --------------------------- Property 19------------------------- 
+:datatypeProperty25 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :Ludhina;
+                    rdfs:range xsd:string . 
+#  --------------------------- Property 20------------------------- 
+:datatypeProperty26 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :Mohali;
+                    rdfs:range xsd:string . 
+#  --------------------------- Property 21------------------------- 
+:datatypeProperty27 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :Chandigarh;
+                    rdfs:range xsd:string . 
+#  --------------------------- Property 22------------------------- 
+:has_gender rdf:type owl:ObjectProperty ;
+            rdfs:label "has_gender"@en; 
+            rdfs:domain :Dhanjot;
+            rdfs:range :Class33 . 
+#  --------------------------- Property 23------------------------- 
+:has_gender rdf:type owl:ObjectProperty ;
+            rdfs:label "has_gender"@en; 
+            rdfs:domain :Rajwinder;
+            rdfs:range :Male . 
+#  --------------------------- Property 24------------------------- 
+:has_gender rdf:type owl:ObjectProperty ;
+            rdfs:label "has_gender"@en; 
+            rdfs:domain :Sukhjit;
+            rdfs:range :Class31 . 
+#  --------------------------- Property 25------------------------- 
+:has_gender rdf:type owl:ObjectProperty ;
+            rdfs:label "has_gender"@en; 
+            rdfs:domain :Suman;
+            rdfs:range :Female . 
+#  --------------------------- Property 26------------------------- 
+:born_on rdf:type owl:ObjectProperty ;
+         rdfs:label "born_on"@en; 
+         rdfs:domain :Dhanjot;
+         rdfs:range :17-05-2006 . 
+#  --------------------------- Property 27------------------------- 
+:born_on rdf:type owl:ObjectProperty ;
+         rdfs:label "born_on"@en; 
+         rdfs:domain :Rajwinder;
+         rdfs:range :06-05-1975 . 
+#  --------------------------- Property 28------------------------- 
+:born_on rdf:type owl:ObjectProperty ;
+         rdfs:label "born_on"@en; 
+         rdfs:domain :Sukhjit;
+         rdfs:range :16-03-1985 . 
+#  --------------------------- Property 29------------------------- 
+:born_on rdf:type owl:ObjectProperty ;
+         rdfs:label "born_on"@en; 
+         rdfs:domain :Suman;
+         rdfs:range :20-10-2004 . 
+#  --------------------------- Property 30------------------------- 
+: rdf:type owl:ObjectProperty ;
+  rdfs:label "age"@en; 
+  rdfs:domain :Dhanjot;
+  rdfs:range :17 . 
+#  --------------------------- Property 31------------------------- 
+:age rdf:type owl:ObjectProperty ;
+     rdfs:label "age"@en; 
+     rdfs:domain :Rajwinder;
+     rdfs:range :50 . 
+#  --------------------------- Property 32------------------------- 
+:age rdf:type owl:ObjectProperty ;
+     rdfs:label "age"@en; 
+     rdfs:domain :Suman;
+     rdfs:range :19 . 
+#  --------------------------- Property 33------------------------- 
+:age rdf:type owl:ObjectProperty ;
+     rdfs:label "age"@en; 
+     rdfs:domain :Sukhjit;
+     rdfs:range :40 . 
+#  --------------------------- Property 34------------------------- 
+:datatypeProperty42 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :17;
+                    rdfs:range xsd:integer . 
+#  --------------------------- Property 35------------------------- 
+:datatypeProperty43 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :50;
+                    rdfs:range xsd:integer . 
+#  --------------------------- Property 36------------------------- 
+:datatypeProperty44 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :40;
+                    rdfs:range xsd:integer . 
+#  --------------------------- Property 37------------------------- 
+:datatypeProperty45 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :19;
+                    rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 38------------------------- 
+:has_account rdf:type owl:ObjectProperty ;
+             rdfs:label "has_account"@en; 
+             rdfs:domain :Suman;
+             rdfs:range :saving_account . 
+#  --------------------------- Property 39------------------------- 
+:has_account rdf:type owl:ObjectProperty ;
+             rdfs:label "has_account"@en; 
+             rdfs:domain :Sukhjit;
+             rdfs:range :current_account . 
+#  --------------------------- Property 40------------------------- 
+:has_account rdf:type owl:ObjectProperty ;
+             rdfs:label "has_account"@en; 
+             rdfs:domain :Rajwinder;
+             rdfs:range :fixed_deposit . 
+#  --------------------------- Property 41------------------------- 
+:has_account rdf:type owl:ObjectProperty ;
+             rdfs:label "has_account"@en; 
+             rdfs:domain :Dhanjot;
+             rdfs:range : . 
+#  --------------------------- Property 42------------------------- 
+:datatypeProperty52 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :current_account;
+                    rdfs:range xsd:string . 
+#  --------------------------- Property 43------------------------- 
+:datatypeProperty53 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :fixed_deposit;
+                    rdfs:range xsd:string . 
+#  --------------------------- Property 44------------------------- 
+:datatypeProperty54 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :;
+                    rdfs:range xsd:string . 
+#  --------------------------- Property 45------------------------- 
+:datatypeProperty55 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :saving_account;
+                    rdfs:range rdfs:Datatype . 
+#  --------------------------- Property 46------------------------- 
+:balance rdf:type owl:ObjectProperty ;
+         rdfs:label "balance"@en; 
+         rdfs:domain :saving_account;
+         rdfs:range :60000 . 
+#  --------------------------- Property 47------------------------- 
+:balance rdf:type owl:ObjectProperty ;
+         rdfs:label "balance"@en; 
+         rdfs:domain :current_account;
+         rdfs:range :1000000 . 
+#  --------------------------- Property 48------------------------- 
+:balance rdf:type owl:ObjectProperty ;
+         rdfs:label "balance"@en; 
+         rdfs:domain :fixed_deposit;
+         rdfs:range :50000 . 
+#  --------------------------- Property 49------------------------- 
+:balance rdf:type owl:ObjectProperty ;
+         rdfs:label "balance"@en; 
+         rdfs:domain :;
+         rdfs:range :2000000 . 
+#  --------------------------- Property 50------------------------- 
+:datatypeProperty60 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :50000;
+                    rdfs:range xsd:integer . 
+#  --------------------------- Property 51------------------------- 
+:datatypeProperty61 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :2000000;
+                    rdfs:range xsd:integer . 
+#  --------------------------- Property 52------------------------- 
+:datatypeProperty62 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :1000000;
+                    rdfs:range xsd:integer . 
+#  --------------------------- Property 53------------------------- 
+:datatypeProperty63 rdf:type owl:DatatypeProperty ;
+                    rdfs:label "newDatatypeProperty"@en; 
+                    rdfs:domain :60000;
+                    rdfs:range xsd:integer . 
+###  Class Definitions (Number of Classes) 34 ###
+#  --------------------------- Class  0------------------------- 
+:Bank rdf:type owl:Class; 
+      rdfs:label "Bank"@en . 
+#  --------------------------- Class  1------------------------- 
+:Organisation rdf:type owl:Class; 
+              rdfs:label "Organisation"@en . 
+#  --------------------------- Class  2------------------------- 
+:Punjab_National_Bank rdf:type owl:Class; 
+                      rdfs:label "Punjab National Bank"@en . 
+#  --------------------------- Class  3------------------------- 
+:1894 rdf:type owl:Class; 
+      rdfs:label "1894"@en . 
+#  --------------------------- Class  4------------------------- 
+:Dhanjot rdf:type owl:Class; 
+         rdfs:label "Dhanjot"@en . 
+#  --------------------------- Class  5------------------------- 
+:Rajwinder rdf:type owl:Class; 
+           rdfs:label "Rajwinder"@en . 
+#  --------------------------- Class  6------------------------- 
+:Sukhjit rdf:type owl:Class; 
+         rdfs:label "Sukhjit"@en . 
+#  --------------------------- Class  7------------------------- 
+:Suman rdf:type owl:Class; 
+       rdfs:label "Suman"@en . 
+#  --------------------------- Class  8------------------------- 
+:Ludhina rdf:type owl:Class; 
+         rdfs:label "Ludhina"@en . 
+#  --------------------------- Class  9------------------------- 
+:Mohali rdf:type owl:Class; 
+        rdfs:label "Mohali"@en . 
+#  --------------------------- Class  10------------------------- 
+:Class22 rdf:type owl:Class; 
+         rdfs:label "NewClass"@en . 
+#  --------------------------- Class  11------------------------- 
+:Pataila rdf:type owl:Class; 
+         rdfs:label "Pataila"@en . 
+#  --------------------------- Class  12------------------------- 
+:Chandigarh rdf:type owl:Class; 
+            rdfs:label "Chandigarh"@en . 
+#  --------------------------- Class  13------------------------- 
+:Female rdf:type owl:Class; 
+        rdfs:label "Female"@en . 
+#  --------------------------- Class  14------------------------- 
+:Class31 rdf:type owl:Class; 
+         rdfs:label "Female"@en . 
+#  --------------------------- Class  15------------------------- 
+:Male rdf:type owl:Class; 
+      rdfs:label "Male"@en . 
+#  --------------------------- Class  16------------------------- 
+:Class33 rdf:type owl:Class; 
+         rdfs:label "Male"@en . 
+#  --------------------------- Class  17------------------------- 
+:20-10-2004 rdf:type owl:Class; 
+            rdfs:label "20-10-2004"@en . 
+#  --------------------------- Class  18------------------------- 
+:06-05-1975 rdf:type owl:Class; 
+            rdfs:label "06-05-1975"@en . 
+#  --------------------------- Class  19------------------------- 
+:17-05-2006 rdf:type owl:Class; 
+            rdfs:label "17-05-2006"@en . 
+#  --------------------------- Class  20------------------------- 
+:16-03-1985 rdf:type owl:Class; 
+            rdfs:label "16-03-1985"@en . 
+#  --------------------------- Class  21------------------------- 
+:19 rdf:type owl:Class; 
+    rdfs:label "19"@en . 
+#  --------------------------- Class  22------------------------- 
+:40 rdf:type owl:Class; 
+    rdfs:label "40"@en . 
+#  --------------------------- Class  23------------------------- 
+:50 rdf:type owl:Class; 
+    rdfs:label "50"@en . 
+#  --------------------------- Class  24------------------------- 
+:17 rdf:type owl:Class; 
+    rdfs:label "17"@en . 
+#  --------------------------- Class  25------------------------- 
+:saving_account rdf:type owl:Class; 
+                rdfs:label "saving_account"@en . 
+#  --------------------------- Class  26------------------------- 
+:Class48 rdf:type owl:Class; 
+         rdfs:label "NewClass"@en . 
+#  --------------------------- Class  27------------------------- 
+:fixed_deposit rdf:type owl:Class; 
+               rdfs:label "fixed_deposit"@en . 
+#  --------------------------- Class  28------------------------- 
+: rdf:type owl:Class; 
+  rdfs:label "saving_account"@en . 
+#  --------------------------- Class  29------------------------- 
+:current_account rdf:type owl:Class; 
+                 rdfs:label "current_account"@en . 
+#  --------------------------- Class  30------------------------- 
+:1000000 rdf:type owl:Class; 
+         rdfs:label "70000"@en . 
+#  --------------------------- Class  31------------------------- 
+:50000 rdf:type owl:Class; 
+       rdfs:label "50000"@en . 
+#  --------------------------- Class  32------------------------- 
+:2000000 rdf:type owl:Class; 
+         rdfs:label "2000000"@en . 
+#  --------------------------- Class  33------------------------- 
+:60000 rdf:type owl:Class; 
+       rdfs:label "60000"@en . 
